@@ -1,0 +1,22 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-align: center;
+
+}
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  .games {
+    float: left;
+    border-color: green;
+  }
+  .puzzles {
+    float: left;
+  }
+  h2 {
+    text-align: right;
+  }
