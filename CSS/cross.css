@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+  }
+  .home {
+    color: aliceblue;
+  }
+/*side nav menu*/
+nav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #4cd379;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  overflow: clip;
+  border: 5px solid ;
+}
+.menu {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+  background-color: #04AA6D;
+}
+/*side nav links*/
+nav a {
+  display: block;
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: #4cd379;
+}
+
+/* Active/current link */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+nav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.popgame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 5px solid black;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    padding-bottom: 25px;
+    background: linear-gradient(to right, #ef5350, #7e57c2, #2196f3, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 0px #ff00957e;
+}
+.john {
+    width: 20%;
+    margin-right: 25px;
+    border: 5px solid black;
+    position: absolute;
+    top: 110px;
+    right: 2rem;
+}
+.how {
+    position: absolute;
+    top: 33rem;
+    right:2rem;
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid black;
+    padding-bottom: 1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 2rem;
+    background-color: rgb(233, 212, 187);
+}
+.play {
+    background: linear-gradient(to right, #ef5350, #7e57c2, #2196f3, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 0px #ff00957e;
+  text-decoration: underline;
+  padding: 1rem;
+}
+.to {
+    background-color: rgb(233, 212, 187);
+}
