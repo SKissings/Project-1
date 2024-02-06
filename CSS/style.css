@@ -1,22 +1,151 @@
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name {
+  text-align: center;
+  font-size: 100px;
+  background-image: url("MEDIA/Images/Bone.png");
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background: rgb(255, 238, 143);
+  border: 5px solid black;
+  color: #04AA6D;
+  
 
 }
-div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
-  .games {
-    float: left;
-    border-color: green;
-  }
-  .puzzles {
-    float: left;
-  }
-  h2 {
-    text-align: right;
-  }
+/*side nav menu*/
+nav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #4cd379;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  overflow: clip;
+  border: 5px solid ;
+}
+.menu {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+/*side nav links*/
+nav a {
+  display: block;
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 40px;
+  
+}
+
+/* Active/current link */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+nav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.welcome {
+  background: white;
+  text-align: center;
+  background-color: rgb(255, 238, 143);
+  padding-top: 50px;
+  float: right;
+}
+
+.welcome-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.welcome-center h1 {
+  font-size: 3rem;
+}
+
+.welcome-center p {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  
+}
+
+button {
+  font-size: 5rem;
+  border: solid;
+  border-width: 1rem;
+  color: rgb(140, 238, 213);
+  background-color: black;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 25px;
+  
+}
+.mascot {
+  width: 25rem;
+  margin-right: 25px;
+  float: right;
+  border: 5px solid black;
+}
+.pop {
+  text-align: center;
+  background-color: rgb(255, 238, 143);
+}
+.pop-title {
+  font-size: 60px;
+  padding: 90px 80px;
+  text-decoration: underline;
+  background: linear-gradient(to right, #ef5350, #7e57c2, #2196f3, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.under {
+  text-decoration: underline;
+  font-size: 40px;
+  color: blue;
+}
+th, td {
+  
+  font-size: larger;
+  border: 5px solid ;
+}
+.table {
+  margin-left: 12rem;
+  margin-right: auto;
+}
+#curve{
+ fill: transparent;
+ 
+}
+.text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 3.3rem;
+  fill: orange;
+  text-decoration: wavy underline ;
+}
+.gamephotos {
+  background-color: rgb(255, 238, 143);
+}
+.cross {
+  margin-left: 10rem;
+}

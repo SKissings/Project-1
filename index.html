@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><b>Kids Site</b></title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body style="background-color: rgb(139, 203, 255);">
-    
-    <h1 style="text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">GOOFY SITE TITLE</h1>
-    <div>
-   <aside style="text-align: right;">This is where the mascot goes when I finish drawing him!</aside>
-<nav>
-   <button class="games">Games</button>
-   <button class="puzzles">Puzzles</button>
-   <button class="facts">Facts</button>
-   <button class="horo">Horoscopes</button>
-</nav>
+<body>
+   <div class="title">
+      <h1 class="name" style="background-image: url(MEDIA/Images/Bone.png); background-repeat: no-repeat; background-size: 40%; background-position-x: center;">DOGGY DAYS</h1>
    </div>
+   <nav>
+      <div class="menu">Menu</div>
+      <div class="nav-items">
+         <a href="/">Games</a>
+         <a href="/">Puzzles</a>
+         <a href="/">Jokes</a>
+         <a href="/">Facts</a>
+         <a href="/">News</a>
+      </div>
+   </nav>
+   <section class="welcome">
+      <div class="curved-welc">
+         <svg width="260" height="130" >
+            <path id="curve" d="M 0 130 C 10 130, 140 10, 270 130" ></path>
+            <text class="text" text-anchor="middle">
+               <textPath class="text_path" href="#curve" startOffset="50%">Welcome!</textPath>
+            </text>
+         </svg>    
+      </div>
+      <div>
+         <img src="MEDIA/Images/john.png" alt="mascot-image" class="mascot"></img>
+      </div>
+      <div class="welcome-container">
+         <div class="welcome-center">
+            <p>
+               Let's Learn Together!</p>
+            <button>&#128270 Explore</button>
+         </div>
+      </div>
+   </section>
+   <section class="pop">
+      <div>
+         <h2 class="pop-title">Popular Today</h2>
+         <table class="table">
+            <tr class="under">
+               <th><a href="/">Crossword</a></th>
+               
+               <th><a href="/">Bubble Pop</a></th>
+          </tr>
+            <tr>
+               <th>Try the daily crossword! 
+                  <img src="MEDIA/Images/crossword_522495_dtim67.gif" alt="crossword puzzle gif" class="cross" >
+               </th>
+               <th>Clear the screen by popping the bubbles!
+                  <img src="MEDIA/Images/bubblepop.png" alt="bubblepop game" class="popgame" style="width: 50%;">
+               </th>
+          </tr>
+         </div>
+         </table>
+      </div>
+   </section>
 </body>
 </html>
