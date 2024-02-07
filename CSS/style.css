@@ -119,6 +119,11 @@ button {
   right: 6rem;
   
 }
+.button0 {
+  color: rgb(140, 238, 213);
+  background-color: black;
+  cursor: pointer;
+}
 .mascot {
   width: 20%;
   margin-right: 25px;
@@ -171,12 +176,20 @@ th, td {
   
 }
 .cross {
-  width: 50%;
-  position: relative;
+  width: 65%;
+  padding-top: 10px;
 }
 .popgame {
   width: 50%;
+  padding-top: 10px;
 }
 .puzzles {
   color: aliceblue;
+}
+.try {
+  font-size: 25px;
+  
+}
+.clear {
+  font-size: 25px;
 }
